@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form method="post" action="../API/signup.php">
+
+        First Name: <input type="text" name="fname">
+        Last Name: <input type="text" name="lname">
+        Phone no: <input type="text" name="phone">
+        Password: <input type="text" name="password">
+        <div>
+            Email: <input type="text" name="email-address" onblur="ajax()">
+            <div id="message"></div>
+        </div>
+        City: <input type="text" name="city-name">
+        Street: <input type="text" name="street-name">
+        House no: <input type="text" name="house-num">
+
+
+        <input type="submit">
+    </form>
+    <script type="javascript" src="ajaxJAVA.js"></script>
+</body>
+
+</html>
